@@ -1,0 +1,67 @@
+{
+    "name": "StackPath",
+    "description": "<p>StackPath is the intelligent web services platform for security, speed and scale. It is the first platform to unify enterprise security solutions by leveraging collaborative intelligence that makes each service smarter and more secure with every threat detected, in addition to vastly improving the customer experience. More than 30,000 customers, ranging from Fortune 100 companies to early stage startups already use StackPath technology. Headquartered in Dallas, Texas, StackPath has offices across the U.S. and internationally.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Stackpath.jpg",
+    "tags": [
+        "have api",
+        "have swagger",
+        "security"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/stackpath\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "StackPath",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Stackpath.jpg",
+            "humanURL": "https:\/\/www.stackpath.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/stackpath.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stackpath-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "StackPath CDN API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Stackpath.jpg",
+            "humanURL": "https:\/\/www.stackpath.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/stackpath-cdn-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stackpath-cdn-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/20063-2019-09-03-16-30-42.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/stackpath"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.stackpath.com"
+        }
+    ]
+}
