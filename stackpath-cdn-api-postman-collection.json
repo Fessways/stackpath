@@ -1,0 +1,74 @@
+{
+    "id": "d481fa2527970bf942214ac9be367724",
+    "name": "StackPath CDN API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "2b06b6835b1695e07b4585a99c4db120",
+            "name": "Retrieve a list of IP addresses used by the StackPath edge network",
+            "url": "http:\/\/gateway.stackpath.com\/\/cdn\/v1\/ips",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "filter",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "response_type",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d481fa2527970bf942214ac9be367724",
+            "rawModeData": ""
+        },
+        {
+            "id": "14a7a9a33a987312acff197969ca4f74",
+            "name": "Scan an origin from the CDN",
+            "url": "http:\/\/gateway.stackpath.com\/\/cdn\/v1\/origins\/scan",
+            "description": "Retrieve information regarding an origin, such as its IP address and whether or not it supports SSL.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d481fa2527970bf942214ac9be367724",
+            "rawModeData": ""
+        }
+    ]
+}
