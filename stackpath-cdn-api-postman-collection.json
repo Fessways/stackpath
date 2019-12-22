@@ -1,5 +1,5 @@
 {
-    "id": "d481fa2527970bf942214ac9be367724",
+    "id": "f6b74511eca69840aa7c8dd9a5bdba77",
     "name": "StackPath CDN API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2b06b6835b1695e07b4585a99c4db120",
+            "id": "c1f197a53d6562c61515e7af1647d389",
             "name": "Retrieve a list of IP addresses used by the StackPath edge network",
             "url": "http:\/\/gateway.stackpath.com\/\/cdn\/v1\/ips",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d481fa2527970bf942214ac9be367724",
+            "collectionId": "f6b74511eca69840aa7c8dd9a5bdba77",
             "rawModeData": ""
         },
         {
-            "id": "14a7a9a33a987312acff197969ca4f74",
+            "id": "00c080a2bea49a20004b85fea23d5de4",
             "name": "Scan an origin from the CDN",
             "url": "http:\/\/gateway.stackpath.com\/\/cdn\/v1\/origins\/scan",
             "description": "Retrieve information regarding an origin, such as its IP address and whether or not it supports SSL.",
@@ -67,7 +67,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d481fa2527970bf942214ac9be367724",
+            "collectionId": "f6b74511eca69840aa7c8dd9a5bdba77",
             "rawModeData": ""
         }
     ]
